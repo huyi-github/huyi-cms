@@ -1,7 +1,19 @@
 package com.huyi.bean;
 
-public class ArticleWithBLOBs extends Article {
-    private String content;
+
+
+import java.io.Serializable;
+
+public class ArticleWithBLOBs extends Article implements Serializable{
+    /**
+	 * @fieldName: serialVersionUID
+	 * @fieldType: long
+	 * @Description: TODO
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private String content;
+
 
     private String summary;
 

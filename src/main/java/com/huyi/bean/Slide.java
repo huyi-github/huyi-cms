@@ -1,7 +1,21 @@
 package com.huyi.bean;
 
-public class Slide {
-    private Integer id;
+import java.io.Serializable;
+
+
+
+
+
+public class Slide implements Serializable{
+    /**
+	 * @fieldName: serialVersionUID
+	 * @fieldType: long
+	 * @Description: TODO
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
+
 
     private String title;
 

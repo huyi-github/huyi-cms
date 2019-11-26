@@ -1,5 +1,6 @@
 package com.huyi.bean;
 
+
 import java.util.Date;
 
 public class Article {
@@ -179,6 +180,5 @@ public class Article {
 	public void setUser(User user) {
 		this.user = user;
 	}
-    
     
 }

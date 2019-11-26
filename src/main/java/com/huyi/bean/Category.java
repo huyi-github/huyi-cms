@@ -1,7 +1,18 @@
 package com.huyi.bean;
 
-public class Category {
-    private Integer id;
+
+import java.io.Serializable;
+
+public class Category implements Serializable{
+    /**
+	 * @fieldName: serialVersionUID
+	 * @fieldType: long
+	 * @Description: TODO
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
+
 
     private String name;
 

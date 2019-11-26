@@ -9,6 +9,7 @@
 	<!-- 扫描器 -->
 	<context:component-scan
 		base-package="com.huyi.controller"></context:component-scan>
+
 	<!-- 文件上传的处理类 -->
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"></bean>
 	<!-- 视图解析图 -->
@@ -49,4 +50,5 @@
 			<bean class="com.huyi.util.MyInterceptor"></bean>
 		</mvc:interceptor>
 	</mvc:interceptors>
+
 </beans>
